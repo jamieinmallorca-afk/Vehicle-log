@@ -1,0 +1,29 @@
+{
+  "name": "vehicle-log",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Private evidence log for parked vehicles with PDF export",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -H 0.0.0.0 -p ${PORT:-3000}"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "pg": "^8.13.0",
+    "pdf-lib": "^1.17.1",
+    "sharp": "^0.34.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/pg": "^8.11.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "typescript": "^5.9.0"
+  }
+}
